@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="tomate">
+        Corinthians
+    </div>
+
+    <button type="button" onclick="exibir()">
+        exibir
+    </button>
+
+    <button type="button" onclick="esconder()">
+        esconder
+    </button>
+
+    <script>
+        function exibir(){
+            document.getElementById("tomate")
+            .style.display = "";
+        }
+
+        function esconder(){
+            document.getElementById("tomate")
+            .style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
